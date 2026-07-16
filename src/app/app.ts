@@ -14,5 +14,6 @@ export class App {
  titulo = "Sistema de controle de EPI;";
  subtitulo = "Gestão de segurança do trabalho";
  descricao = "Aplicação para controle, monitoramento e conformidade dos equipamentos de proteção individual";
- 
-}
+  }
+  
+

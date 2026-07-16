@@ -12,5 +12,10 @@ export class EpiService {
 
   listar(): Observable<Epi[]> {
     return this.http.get<Epi[]>(this.apiUrl);
-    }    
+    } 
+    
+    cadastrar(epi: Omit<Epi, 'id'>): Observable<Epi> {
+      return this.http.post<Epi>(this.apiUrl, epi);
+      }
+      
 }
